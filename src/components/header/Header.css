@@ -1,0 +1,38 @@
+.header{
+    width: auto;
+    height: 6em;
+    display: flex;
+    flex-direction: row;
+    background-color: darkturquoise;
+    overflow: hidden;
+    border: 0.2em;
+    border-color: black;
+    border-style: solid;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2em;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.2em;
+    background-color: white;
+}
+a:hover{
+    color:white;
+    background-color: black;
+}
