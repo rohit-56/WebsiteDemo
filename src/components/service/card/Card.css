@@ -1,0 +1,36 @@
+.card{
+    height: 30em;
+    width: 24em;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    overflow: hidden;
+}
+.card-img-top{
+  height: 10em;
+  width: 24em;
+}
+.card-body{
+    margin-top: 0.5em;
+     height: 10em;
+     width: 24em;
+     background-color: green;
+}
+.card-title{
+    height: 3em;
+    text-align: center;
+    font-size: 1em;
+    background-color: aqua;
+  
+}
+.card-text{
+    height: 10em;
+    text-align: justify;
+    background-color: black;
+}
+.btn-primary{
+    margin-top: 1px;
+    margin-bottom: 0;
+    font-size:15px;
+    width: 20em;
+}

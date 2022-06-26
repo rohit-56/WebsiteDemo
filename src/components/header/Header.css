@@ -9,11 +9,6 @@
     border-color: black;
     border-style: solid;
 }
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
 nav{
     flex: 1;
     text-align: right;
